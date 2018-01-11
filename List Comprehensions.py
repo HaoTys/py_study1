@@ -27,5 +27,5 @@ print([x+y for x in 'asd' for y in 'qwe' ])
 # &此外还可以在循环之后添加判断
 print('\n此外还可以在循环之后添加判断')
 print([x + y for x in 'asd' if x != 'a' for y in 'qwe' if y != 'q'])
-print('qwe')
+
 
