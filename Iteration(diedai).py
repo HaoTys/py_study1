@@ -20,16 +20,12 @@ for i in enumerate(q):
 for i in enumerate(w):
     print(i)
 
-
 # 感觉其作用配合 另一个参数效果更好，详情见下面的方法
 print('\n感觉其作用配合 另一个参数效果更好，详情见下面的方法')
-for i,i1 in enumerate(q):
-    print(i,i1)
-for i,i1 in enumerate(w):
-    print(i,i1)
-
-
-
+for i, i1 in enumerate(q):
+    print(i, i1)
+for i, i1 in enumerate(w):
+    print(i, i1)
 
 # 请使用迭代查找一个list中最小和最大值，并返回一个tuple：
 print('\n请使用迭代查找一个list中最小和最大值，并返回一个tuple：')
@@ -51,3 +47,12 @@ def select(mai):
 
 
 print(select(mai))
+
+print("1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111+\n\n\n\n")
+
+a1 = list(range(1,10))
+for i in a1:
+    print(i)
+
+for i,j in enumerate(a1):
+    print(i,j)
